@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SOMEONE</title>
+
+</head>
+<body>
+                <h1>WELCOME DIBLOG KAMI</h1>
+              {% include "menu.html" %}
+                <p>ASSALAMUALAIKUM WR.WB</p>
+         
+    {% if True %}
+     <h1>IF bernilai TRUE,maka aku ada</h1>
+    {% endif %}
+
+    {{nama | lower}}
+
+    {%for fruit in buah %}
+    <li>{{ fruit }}</li>
+    {% endfor %}
+
+
+</body>
+</html>
